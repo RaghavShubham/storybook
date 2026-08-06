@@ -1,0 +1,24 @@
+{
+  "id": "args-formatting",
+  "import": "import ArgsFormatting from './ArgsFormatting.vue';",
+  "name": "ArgsFormatting",
+  "path": "__PATH__",
+  "stories": {
+    "forms-args-formatting--primary": {
+      "description": undefined,
+      "id": "forms-args-formatting--primary",
+      "name": "Primary",
+      "snippet": "<script lang="ts" setup>
+const options = {
+  density: 'compact',
+  flags: ['a', 'b'],
+};
+</script>
+
+<template>
+  <ArgsFormatting active :count="2" :disabled="false" label="Format me" :options="options" />
+</template>",
+      "summary": undefined,
+    },
+  },
+}

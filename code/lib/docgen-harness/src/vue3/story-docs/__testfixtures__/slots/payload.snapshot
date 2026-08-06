@@ -1,0 +1,19 @@
+{
+  "id": "slots",
+  "import": "import SlotCard from './SlotCard.vue';",
+  "name": "SlotCard",
+  "path": "__PATH__",
+  "stories": {
+    "forms-slots--string-slots": {
+      "description": undefined,
+      "id": "forms-slots--string-slots",
+      "name": "String Slots",
+      "snippet": "<template>
+  <SlotCard> Body copy
+
+<template #header>Header copy</template> </SlotCard>
+</template>",
+      "summary": undefined,
+    },
+  },
+}

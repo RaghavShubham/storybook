@@ -1,0 +1,25 @@
+{
+  "id": "v-model",
+  "import": "import ModelInput from './ModelInput.vue';",
+  "name": "ModelInput",
+  "path": "__PATH__",
+  "stories": {
+    "forms-v-model--bound": {
+      "description": undefined,
+      "id": "forms-v-model--bound",
+      "name": "Bound",
+      "snippet": "<script lang="ts" setup>
+import { ref } from "vue";
+
+const checked = ref(true);
+
+const modelValue = ref('Typed text');
+</script>
+
+<template>
+  <ModelInput v-model:checked="checked" v-model="modelValue" />
+</template>",
+      "summary": undefined,
+    },
+  },
+}

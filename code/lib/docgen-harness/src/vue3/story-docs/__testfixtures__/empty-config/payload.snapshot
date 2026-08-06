@@ -1,0 +1,17 @@
+{
+  "id": "empty-config",
+  "import": "import EmptyConfig from './EmptyConfig.vue';",
+  "name": "EmptyConfig",
+  "path": "__PATH__",
+  "stories": {
+    "forms-empty-config--empty": {
+      "description": undefined,
+      "id": "forms-empty-config--empty",
+      "name": "Empty",
+      "snippet": "<template>
+  <EmptyConfig label="Meta label" />
+</template>",
+      "summary": undefined,
+    },
+  },
+}

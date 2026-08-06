@@ -1,0 +1,28 @@
+{
+  "id": "unsupported-args",
+  "import": "import UnsupportedArgs from './UnsupportedArgs.vue';",
+  "name": "UnsupportedArgs",
+  "path": "__PATH__",
+  "stories": {
+    "forms-unsupported-args--identifier-arg": {
+      "description": undefined,
+      "error": {
+        "message": "Arg "label" references "sharedLabel", which cannot be statically inlined yet.",
+        "name": "Unsupported story args",
+      },
+      "id": "forms-unsupported-args--identifier-arg",
+      "name": "Identifier Arg",
+      "summary": undefined,
+    },
+    "forms-unsupported-args--spread-arg": {
+      "description": undefined,
+      "error": {
+        "message": "Story args contain a spread value, which cannot be statically inlined yet.",
+        "name": "Unsupported story args",
+      },
+      "id": "forms-unsupported-args--spread-arg",
+      "name": "Spread Arg",
+      "summary": undefined,
+    },
+  },
+}

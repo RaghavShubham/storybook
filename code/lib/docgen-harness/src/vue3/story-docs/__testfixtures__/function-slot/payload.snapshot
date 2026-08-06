@@ -1,0 +1,14 @@
+{
+  "id": "function-slot",
+  "import": "import FunctionSlot from './FunctionSlot.vue';",
+  "name": "FunctionSlot",
+  "path": "__PATH__",
+  "stories": {
+    "forms-function-slot--rendered-slot": {
+      "description": undefined,
+      "id": "forms-function-slot--rendered-slot",
+      "name": "Rendered Slot",
+      "summary": undefined,
+    },
+  },
+}
